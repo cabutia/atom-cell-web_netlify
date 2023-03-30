@@ -28,7 +28,7 @@
                     </nav>
                     <!-- End Mainmanu Nav -->
                 </div>
-                <NavbarActions/>
+                
             </div>
         </div>
     </div>

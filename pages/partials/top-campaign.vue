@@ -1,8 +1,8 @@
 <template>
-    <div class="header-top-campaign">
+    <div class="header-top-campaign" style="margin-bottom: 10px">
         <div class="container position-relative">
             <div class="campaign-content">
-                <p>Open Doors To A World Of Fashion <a href="#">Discover More</a></p>
+                <p>15% de descuento en reparaciones y accesorios. Sin limite!</p>
             </div>
         </div>
         <button class="remove-campaign"><i class="fal fa-times"></i></button>

@@ -25,6 +25,7 @@ useHead({
   ],
   bodyAttrs: {
     class: 'sticky-header newsletter-popup-modal'
+    // class: 'sticky-header newsletter-popup-modal active-dark-mode'
   }
 })
 
@@ -35,7 +36,7 @@ const config = useAppConfig();
     <a href="#top" class="back-to-top" id="backto-top"><i class="fal fa-arrow-up"></i></a>
     <header class="header axil-header header-style-1">
         <TopCampaign/>
-        <TopHeader/>
+        <!-- <TopHeader/> -->
         <!-- Start Mainmenu Area  -->
         <div id="axil-sticky-placeholder"></div>
         <MainNavbar/>
