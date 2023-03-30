@@ -1,0 +1,7 @@
+<template>
+    <li class="axil-mobile-toggle">
+        <button class="menu-btn mobile-nav-toggler">
+            <i class="flaticon-menu-2"></i>
+        </button>
+    </li>
+</template>

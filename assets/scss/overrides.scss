@@ -1,0 +1,5 @@
+body {
+    &.active-dark-mode {
+        background: var(--dark-body-bg);
+    }
+}
