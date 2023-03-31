@@ -6,7 +6,7 @@ plugins: [
 
 export default defineNuxtConfig({
     nitro: {
-        preset: 'cloudflare',
+        preset: 'netlify',
         serveStatic: true
     },
     css: [
