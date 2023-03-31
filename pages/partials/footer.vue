@@ -7,22 +7,20 @@
                     <!-- Start Single Widget  -->
                     <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
-                            <h5 class="widget-title">Support</h5>
+                            <h5 class="widget-title">Contactanos</h5>
                             <!-- <div class="logo mb--30">
                             <a href="index.html">
                                 <img class="light-logo" src="/assets/images/logo/logo.png" alt="Logo Images">
                             </a>
                         </div> -->
                             <div class="inner">
-                                <p>685 Market Street, <br>
-                                    Las Vegas, LA 95820, <br>
-                                    United States.
+                                <p>Lamadrid 1666, <br>
+                                Villa Ballester, <br>
+                                Buenos Aires.
                                 </p>
                                 <ul class="support-list-item">
-                                    <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i>
-                                            example@domain.com</a></li>
-                                    <li><a href="tel:(+01)850-315-5862"><i class="fal fa-phone-alt"></i> (+01)
-                                            850-315-5862</a></li>
+                                    <li><a href="mailto:contacto@atomcell.com.ar"><i class="fal fa-envelope-open"></i> contacto@atomcell.com.ar</a></li>
+                                    <li><a href="tel:+5491127623910"><i class="fal fa-phone-alt"></i> 11 2762-3910</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
                             </div>
@@ -30,7 +28,7 @@
                     </div>
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Account</h5>
                             <div class="inner">
@@ -43,10 +41,10 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Quick Link</h5>
                             <div class="inner">
@@ -59,10 +57,10 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End Single Widget  -->
                     <!-- Start Single Widget  -->
-                    <div class="col-lg-3 col-sm-6">
+                    <!-- <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Download App</h5>
                             <div class="inner">
@@ -82,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- End Single Widget  -->
                 </div>
             </div>
@@ -96,25 +94,20 @@
                         <div class="social-share">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-discord"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-left d-flex flex-wrap justify-content-center">
                             <ul class="quick-link">
-                                <li>© 2022. All rights reserved by <a target="_blank"
-                                        href="https://axilthemes.com/">Axilthemes</a>.</li>
+                                <li>© 2023. Derechos reservados <a target="_blank" href="https://atomcell.com.ar/">AtomCell</a>.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
-                        <div
-                            class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
-                            <span class="card-text">Accept For</span>
+                        <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
+                            <span class="card-text">Aceptamos</span>
                             <ul class="payment-icons-bottom quick-link">
-                                <li><img src="/assets/images/icons/cart/cart-1.png" alt="paypal cart"></li>
                                 <li><img src="/assets/images/icons/cart/cart-2.png" alt="paypal cart"></li>
                                 <li><img src="/assets/images/icons/cart/cart-5.png" alt="paypal cart"></li>
                             </ul>
@@ -123,5 +116,6 @@
                 </div>
             </div>
         </div>
-    <!-- End Copyright Area  -->
-</footer></template>
+        <!-- End Copyright Area  -->
+    </footer>
+</template>

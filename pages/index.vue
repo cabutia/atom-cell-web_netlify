@@ -52,10 +52,10 @@ const config = useAppConfig();
         <!-- <NewArrivals/> -->
         <!-- <MostSold/> -->
         <WhyChoose/>
-        <ProductPoster/>
+        <!-- <ProductPoster/> -->
         <Newsletter/>
     </main>
-    <ServiceArea/>
+    <!-- <ServiceArea/> -->
     <Footer/>
 
     <!-- Global stuff -->
