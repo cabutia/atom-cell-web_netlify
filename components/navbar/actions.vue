@@ -1,10 +1,10 @@
 <template>
     <div class="header-action">
         <ul class="action-list">
-            <NavbarActionsGeneralSearch />
+            <!-- <NavbarActionsGeneralSearch />
             <NavbarActionsFavorites />
             <NavbarActionsShoppingCart />
-            <NavbarActionsMyAccount />
+            <NavbarActionsMyAccount /> -->
             <NavbarActionsMobileMenu />
         </ul>
     </div>

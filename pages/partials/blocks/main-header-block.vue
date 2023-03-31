@@ -37,6 +37,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="single-slide slick-slide">
+                                <span class="subtitle">
+                                    <i class="fas fa-location"></i>
+                                    Lamadrid 1666, Villa Ballester
+                                </span>
+                                <h1 class="title">
+                                    Vení a conocernos!
+                                </h1>
+                                <div class="slide-action">
+                                    <div class="shop-btn">
+                                        <a href="shop.html" class="axil-btn btn-bg-white">
+                                            <i class="fas fa-location"></i>
+                                            Dirección
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -45,7 +62,7 @@
                         <div class="slider-thumb-activation-one axil-slick-dots">
                             <div class="single-slide slick-slide" data-sal="slide-up" data-sal-delay="600"
                                 data-sal-duration="1500">
-                                <img src="assets/images/product/product-38.png" alt="Product">
+                                <img src="/assets/images/slide-1.png" alt="Product">
                                 <div class="product-price">
                                     <span class="text">From</span>
                                     <span class="price-amount">$49.00</span>
@@ -53,21 +70,21 @@
                             </div>
                             <div class="single-slide slick-slide" data-sal="slide-up" data-sal-delay="600"
                                 data-sal-duration="1500">
-                                <img src="assets/images/product/product-39.png" alt="Product">
+                                <img src="/assets/images/slide-2.png" alt="Product">
                                 <div class="product-price">
                                     <span class="text">From</span>
                                     <span class="price-amount">$49.00</span>
                                 </div>
                             </div>
                             <div class="single-slide slick-slide">
-                                <img src="assets/images/product/product-38.png" alt="Product">
+                                <img src="/assets/images/product/product-38.png" alt="Product">
                                 <div class="product-price">
                                     <span class="text">From</span>
                                     <span class="price-amount">$49.00</span>
                                 </div>
                             </div>
                             <div class="single-slide slick-slide">
-                                <img src="assets/images/product/product-39.png" alt="Product">
+                                <img src="/assets/images/product/product-39.png" alt="Product">
                                 <div class="product-price">
                                     <span class="text">From</span>
                                     <span class="price-amount">$49.00</span>
@@ -79,8 +96,8 @@
             </div>
         </div>
         <ul class="shape-group">
-            <li class="shape-1"><img src="assets/images/others/shape-1.png" alt="Shape"></li>
-            <li class="shape-2"><img src="assets/images/others/shape-2.png" alt="Shape"></li>
+            <li class="shape-1"><img src="/assets/images/others/shape-1.png" alt="Shape"></li>
+            <li class="shape-2"><img src="/assets/images/others/shape-2.png" alt="Shape"></li>
         </ul>
     </div>
 </template>
