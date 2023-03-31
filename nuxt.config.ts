@@ -5,6 +5,10 @@ plugins: [
  */
 
 export default defineNuxtConfig({
+    nitro: {
+        preset: 'cloudflare',
+        serveStatic: true
+    },
     css: [
         '~/assets/scss/style.scss',
     ],
