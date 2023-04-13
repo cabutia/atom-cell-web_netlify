@@ -24,6 +24,7 @@ export default defineNuxtConfig({
                 { href:'/assets/css/vendor/sal.css', rel: 'stylesheet' },
                 { href:'/assets/css/vendor/magnific-popup.css', rel: 'stylesheet' },
                 { href:'/assets/css/vendor/base.css', rel: 'stylesheet' },
+                { rel: 'icon', type: 'image/png', href: "/favicon.png" }
             ],
             script: [
                 { src: '/assets/js/vendor/modernizr.min.js', body: true },

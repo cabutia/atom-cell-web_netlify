@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 const config = useAppConfig()
+const contactLink = computed(() => config?.whatsappLink || '#')
+const mapLink = computed(() => config?.mapLink || '#')
 </script>
 
 <template>
@@ -20,7 +22,7 @@ const config = useAppConfig()
                                 </h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a :href="config.whatsappLink" target="_blank" class="axil-btn btn-bg-white">
+                                        <a :href="contactLink" class="axil-btn btn-bg-white">
                                             <i class="fab fa-whatsapp"></i>
                                             Contactanos
                                         </a>
@@ -34,7 +36,7 @@ const config = useAppConfig()
                                 <h1 class="title">Funda + Templado</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a :href="config.whatsappLink" target="_blank" class="axil-btn btn-bg-white">
+                                        <a :href="contactLink" target="_blank" class="axil-btn btn-bg-white">
                                             <i class="fab fa-whatsapp"></i>
                                             Contactanos
                                         </a>
@@ -52,7 +54,7 @@ const config = useAppConfig()
                                 </h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white">
+                                        <a :href="mapLink" target="_blank" class="axil-btn btn-bg-white">
                                             <i class="fas fa-location"></i>
                                             Dirección
                                         </a>
