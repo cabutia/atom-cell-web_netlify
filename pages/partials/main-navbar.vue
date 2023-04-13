@@ -1,12 +1,16 @@
+<script lang="ts" setup>
+const config = useAppConfig()
+</script>
+
 <template>
     <div class="axil-mainmenu">
         <div class="container">
             <div class="header-navbar">
                 <div class="header-brand">
-                    <a href="index.html" class="logo logo-dark">
+                    <a href="/" class="logo logo-dark">
                         <img src="/assets/images/logo_web_light.png" alt="Site Logo">
                     </a>
-                    <a href="index.html" class="logo logo-light">
+                    <a href="/" class="logo logo-light">
                         <img src="/assets/images/logo_web_light.png" alt="Site Logo">
                     </a>
                 </div>
@@ -15,15 +19,13 @@
                     <nav class="mainmenu-nav">
                         <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                         <div class="mobile-nav-brand">
-                            <a href="index.html" class="logo">
+                            <a href="/" class="logo">
                                 <img src="/assets/images/logo_web_light.png" alt="Site Logo">
                             </a>
                         </div>
                         <ul class="mainmenu">
                             <NavLink label="Inicio"/>
-                            <NavLink label="Tienda"/>
-                            <NavLink label="Sobre nosotros"/>
-                            <NavLink label="Contacto"/>
+                            <NavLink label="Contacto" :link="config.whatsappLink" blank/>
                         </ul>
                     </nav>
                     <!-- End Mainmanu Nav -->

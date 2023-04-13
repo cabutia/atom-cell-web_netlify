@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const config = useAppConfig()
+</script>
+
 <template>
     <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
@@ -7,7 +11,7 @@
                     <!-- Start Single Widget  -->
                     <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
-                            <h5 class="widget-title">Contactanos</h5>
+                            <a :href="config.whatsappLink" target="_blank" class="widget-title">Contactanos</a>
                             <!-- <div class="logo mb--30">
                             <a href="index.html">
                                 <img class="light-logo" src="/assets/images/logo/logo.png" alt="Logo Images">
@@ -19,8 +23,8 @@
                                 Buenos Aires.
                                 </p>
                                 <ul class="support-list-item">
-                                    <li><a href="mailto:contacto@atomcell.com.ar"><i class="fal fa-envelope-open"></i> contacto@atomcell.com.ar</a></li>
-                                    <li><a href="tel:+5491127623910"><i class="fal fa-phone-alt"></i> 11 2762-3910</a></li>
+                                    <li><a :href="config.emailLink" target="_blank"><i class="fal fa-envelope-open"></i> contacto@atomcell.com.ar</a></li>
+                                    <li><a :href="config.phoneLink" target="_blank"><i class="fal fa-phone-alt"></i> 11 2762-3910</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
                             </div>

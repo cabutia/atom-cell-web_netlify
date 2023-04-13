@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const config = useAppConfig()
+</script>
+
 <template>
     <div class="axil-poster-countdown">
             <div class="container">
@@ -10,7 +14,7 @@
                                     <h2 class="title">10% de descuento sin limite en todas tus compras en efectivo</h2>
                                 </div>
                                 <div class="poster-countdown countdown mb--40"></div>
-                                <a href="#" class="axil-btn btn-bg-primary">
+                                <a :href="config.whatsappLink" target="_blank" class="axil-btn btn-bg-primary">
                                     <span class="fab fa-whatsapp" style="margin-right: 1rem"></span>
                                     Contactanos!
                                 </a>

@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const config = useAppConfig()
+</script>
+
 <template>
     <div class="axil-main-slider-area main-slider-style-1">
         <div class="container">
@@ -16,7 +20,7 @@
                                 </h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white">
+                                        <a :href="config.whatsappLink" target="_blank" class="axil-btn btn-bg-white">
                                             <i class="fab fa-whatsapp"></i>
                                             Contactanos
                                         </a>
@@ -30,7 +34,7 @@
                                 <h1 class="title">Funda + Templado</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white">
+                                        <a :href="config.whatsappLink" target="_blank" class="axil-btn btn-bg-white">
                                             <i class="fab fa-whatsapp"></i>
                                             Contactanos
                                         </a>
