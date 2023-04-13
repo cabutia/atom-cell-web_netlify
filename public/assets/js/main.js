@@ -26,10 +26,10 @@ const start = () => {
                 window.axlInit.priceRangeSlider();
                 window.axlInit.quantityRanger();
                 window.axlInit.axilSlickActivation();
-                window.axlInit.countdownInit('.coming-countdown', '2023/10/01');
-                window.axlInit.campaignCountdown('.campaign-countdown', '2023/10/01');
-                window.axlInit.countdownInit('.poster-countdown', '2023/10/01');
-                window.axlInit.countdownInit('.sale-countdown', '2023/10/31');
+                window.axlInit.countdownInit('.coming-countdown', '2023/06/01');
+                window.axlInit.campaignCountdown('.campaign-countdown', '2023/06/01');
+                window.axlInit.countdownInit('.poster-countdown', '2023/06/01');
+                window.axlInit.countdownInit('.sale-countdown', '2023/06/31');
                 window.axlInit.sideOffcanvasToggle('.cart-dropdown-btn', '#cart-dropdown');
                 window.axlInit.sideOffcanvasToggle('.mobile-nav-toggler', '.header-main-nav');
                 window.axlInit.sideOffcanvasToggle('.department-side-menu', '.department-nav-menu');
