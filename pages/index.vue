@@ -20,6 +20,7 @@ import Cart from './partials/cart.vue';
 import OfferPopupModal from './partials/offer-popup-modal.vue';
 
 useHead({
+  title: 'Atom Cell | Soporte Técnico y venta de accesorios en Villa Ballester',
   script: [
     { src: '/assets/js/main.js', body: true }
   ],
