@@ -27,6 +27,7 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/png', href: "/favicon.png" }
             ],
             script: [
+                { src: 'https://www.googletagmanager.com/gtag/js?id=G-Z7KY4SBRJL', async: true },
                 { src: '/assets/js/vendor/modernizr.min.js', body: true },
                 { src: '/assets/js/vendor/jquery.js', body: true },
                 { src: '/assets/js/vendor/popper.min.js', body: true },
